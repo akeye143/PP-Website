@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family:Arial, Helvetica, sans-serif; 
+    background-color:#F7EBE8;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+#wrapper{
+    width: 100%; margin: 0 auto;
+}
+
+header{
+	background-color: #F7EBE8;
+	}
+
+#logo{
+
+    float:left;
+    height: 3%;
+    width: 5%;
+    top: 0;
+    left: 0;
+}
+
+nav.nav1{
+    overflow: hidden;
+    background-color:#F7EBE8;
+    font-size: 80%;
+    padding-left: 40%;
+    padding-right: 5%;
+}
+
+nav.nav1 ul{
+    list-style: none;
+    width: 90%;
+    padding : 5%;
+    margin:0;
+}
+
+nav.nav1 li{
+    display: inline;
+    border-right: 2px solid #F7EBE8;
+}
+
+nav.nav1 a{
+    color: #27347E;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 19px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+nav.nav1 a:hover{
+    box-shadow: 0 -5px 0px #1C2E67 inset,
+    500px 0 0 #f7e7e7 inset;
+    padding: 20px 19px 30px 19px;
+}
+
+.smallText{
+    display:flex;
+    margin-left: 70%;
+}
+
+.smallText > div{
+    color: #808080;
+    font-size: 12px;
+    font-weight: bold; 
+    padding: 10px;
+}
+
+.contacts-container::after{
+    content:"";
+    display:table;
+    clear: both;
+     
+ }
+ 
+ .contacts{
+   float: left;
+   width: 50%;
+   padding: 20px;
+ }
+
+h3{
+    color: #011657;
+    width: 60%;
+    padding-top: 20px;
+}
+
+input[type=email] {
+    width: 40%;
+    padding: 12px 15px;
+    background-color: #F7EBE8;
+    opacity: 1;
+    border-color: #FFFFFF;
+}
+
+input[type=submit]{
+    border: 2px solid #F7EBE8;
+    background-color:#FFFFFF;
+    opacity: 1;
+    text-align: center;
+    font-size: 14px;
+    padding: 13px;
+    width: 80px;
+}
+
+input[type=submit]:hover{
+    background-color:#d3d3d3;
+    border-color: #808080;
+}
+
+.contactsLink h4{
+    padding-top: 1px;
+    font-size: 16px;
+    margin-left: 41px;
+    color: #011657;
+}
+
+.contactsLink ul{
+    list-style: none;
+}
+
+.contactsLink li{
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.contactsLink a{
+    color: #011657;
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.contactsLink a:hover{
+    color: #E07D53;
+    text-decoration: underline;
+}
+
+.position{
+    padding-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+    
